@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
+  position = 1 
   array.each do |dwarf|
-    puts dwarf
+    puts "#{position}. #{dwarf}
   end
 end
 
