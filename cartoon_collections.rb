@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.push(*cheese_types)
-  array.detect {|ingredent| array.count(ingredient) > 1} 
+  array.detect {|ingredient| array.count(ingredient) > 1} 
 end
 
 
