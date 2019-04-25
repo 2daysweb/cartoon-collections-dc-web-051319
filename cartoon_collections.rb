@@ -22,5 +22,5 @@ def find_the_cheese(array)
   array.push(*cheese_types)
   array.detect |ingredent| array.count(ingredient) > 1 
 end
-end
+
 
